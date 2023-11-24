@@ -45,12 +45,11 @@ nav {
 }
 
 .unstop {
-  background-image: url('https://yt3.googleusercontent.com/INIkIbA8kqQhLqFFBJODFKjzYW_N-PvxQQwqO_LhtkXvnwHYGenP1HOJGfnpoqvH-DQKbOjL=s600-c-k-c0x00ffffff-no-rj');
+  background-image: url('https://play-lh.googleusercontent.com/Sn4FCvXPL21HgxKO_-Oj0_ldYA8YH2muN6enGKpBylzvYpCa_cZTqbU6VEXYRtFGwg');
   background-position: center;
   height: 50vh;
 }
 
 footer {
   background: linear-gradient(45deg, purple, pink);
-  border-radius: 0% 30% 0% 0%;
 }

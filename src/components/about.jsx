@@ -2,15 +2,14 @@ import React from "react";
 
 export default function About() {
     return (
-        <div className="bg-gradient-to-br from-green-600 to-yellow-300 py-5">
-            <div className="container grid grid-rows-10 bg-gradient-to-tr from-orange-100 to-orange-500 text-left mx-auto rounded-xl">
-                <img
-                    src="https://images.unsplash.com/photo-1692610365998-c628604f5d9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=1600&h=400&q=60"
-                    alt=""
-                    className="rounded-t-xl"
-                />
-
-                <div id="intro" className="px-4 m-4 rounded-xl row-span-1">
+        <div className="bg-gradient-to-tr from-orange-100 to-orange-500">
+            <img
+                src="https://images.unsplash.com/photo-1692610365998-c628604f5d9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=2000&h=400&q=60"
+                alt=""
+                className=""
+            />
+            <div className="container grid grid-rows-10 text-left mx-auto gap-10 rounded-xl">
+                <div id="intro" className="px-4 mx-4 rounded-xl row-span-1">
                     <div className="flex justify-between items-center">
                         <span className="text-5xl">Bio</span>
                         <img
@@ -21,7 +20,7 @@ export default function About() {
                             className="my-10 rounded-full"
                         />
                     </div>
-                    <p className="text-xl my-2">
+                    <p className="text-xl mb-10">
                         This is about me... I am a BTech student from DYPU Ambi. I like to
                         do coding and playing video games <br />
                         My expertise is Python and JS.
@@ -82,9 +81,11 @@ export default function About() {
                     <div className="flex justify-between">
                         <div>
                             <h2 className="text-xl underline my-2">Bachelors of Technology (B.Tech.)</h2>
-                            <h2 className="text-lg">Graduation: 2020</h2>
-                            <h2 className="text-lg">School: St. Francis' College, Lucknow</h2>
-                            <h2 className="text-lg">Board: ISC Board (74.6%)</h2>
+                            <h2 className="text-lg">Graduation: 2024</h2>
+                            <h2 className="text-lg">First Year CGPA: 8.92</h2>
+                            <h2 className="text-lg">Second Year CGPA: 8.64</h2>
+                            <h2 className="text-lg">Third Year CGPA: 8.60</h2>
+                            <h2 className="text-lg">Fourth Year CGPA: not yet completed </h2>
                         </div>
 
                         <div>
